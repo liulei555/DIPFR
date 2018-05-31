@@ -1,0 +1,72 @@
+
+.contextTree {
+  height: 100%;
+  .left {
+    height: 100%;
+    border: 1px solid #ccc;
+    //min-width : calc(~"100vh - @{diff}");
+    .form {
+      :global{
+        .ant-input {
+          min-width: 240px;
+        }
+      }
+      .button {
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-around;
+      }
+      padding-bottom: 20px;
+    }
+    .title {
+      text-align: center;
+      font-size: 20px;
+      height: 50px;
+      line-height: 50px;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+    }
+    .list {
+      .option {
+        display: flex;
+        justify-content: space-around;
+        button {
+          width: 120px;
+        }
+      }
+      .tree {
+        padding: 10px 20px 10px 20px;
+        min-height: 400px;
+      }
+      padding-bottom: 15px;
+    }
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+:global{
+  .react-contextmenu {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    .react-contextmenu-item {
+      padding: 0 10px 0 10px;
+    }
+    .react-contextmenu-item:hover {
+      background-color: #ccc;
+    }
+  }
+  .historyModal .ant-modal-body{
+    padding: 0;
+
+    .ant-tabs-nav .ant-tabs-tab {
+      width: 243px;
+      text-align: center;
+    }
+    .ant-form-inline .ant-form-item {
+      width: 100%;
+    }
+  }
+
+}
+

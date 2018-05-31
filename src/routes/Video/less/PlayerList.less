@@ -1,0 +1,62 @@
+:global {
+  color: #314659;
+  .playerList {
+    width: 100%;
+    .innerPadding {
+      padding: 0 15px;
+    }
+    .tagBox {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e5e5e5;
+      margin-bottom: 10px;
+    }
+    .tag {
+      margin-left: -7px;
+    }
+    .ant-tabs-nav {
+      display: block;
+      width: 100%;
+      height: 50px;
+    }
+    .tabStyle {
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .ant-tabs {
+      &.ant-tabs-card {
+        .ant-tabs-content {
+          background-color: #f7fafc;
+        }
+        & > .ant-tabs-bar {
+          .ant-tabs-tab {
+            width: 25%;
+            height: 50px;
+            line-height: 50px;
+            margin: 0;
+            span {
+              font-size: 22px;
+            }
+          }
+          text-align: center;
+          line-height: 50px;
+          .ant-tabs-tab-active {
+            border-top: 2px solid #2180d4;
+            background-color: #dcedff;
+          }
+          .ant-tabs-nav-container {
+            height: 50px;
+            background: #dcedff;
+          }
+        }
+      }
+    }
+    .ant-tabs-bar {
+      margin: 0;
+      height: 50px;
+    }
+  }
+
+}

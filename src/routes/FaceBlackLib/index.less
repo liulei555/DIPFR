@@ -1,0 +1,133 @@
+@import '../../../node_modules/antd/lib/style/themes/default.less';
+
+.faceBlackLib {
+  background-color: #fff;
+  :global {
+
+    .ant-table-tbody > tr.ant-table-row-selected td {
+      background-color: #f6fafb;
+      color: #1890ff;
+    }
+
+    .ant-table-thead > tr > th.ant-table-selection-column, .ant-table-tbody > tr > td.ant-table-selection-column {
+      display: none;
+    }
+
+    .button-space {
+      border: 1px solid #2EAFA6;
+    }
+
+    .button-left {
+      margin-right: 20px;
+    }
+
+    .button-space-large {
+      margin: 3.5px 15px;
+      border: 1px solid #2EAFA6;
+    }
+
+    .left-col {
+      padding: 0 20px 20px;
+    }
+
+    .right-col {
+      padding: 0 20px 20px 0;
+    }
+
+    .ant-table-small {
+      border: none;
+    }
+
+    .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th {
+      border-bottom: none;
+    }
+
+    .ant-table-tbody {
+      background-color: #f6fafb;
+      > tr > td {
+        cursor: pointer;
+        border-bottom: none;
+        padding: 10px 15px !important;
+      }
+
+      > tr:hover > td {
+        color: #1890ff;
+        background: #f6fafb;
+      }
+    }
+
+    .header {
+      padding: 8px 0;
+    }
+
+    .box {
+      padding: 5px 25px;
+      background-color: #f6fafb;
+    }
+
+    .filter-row {
+      padding: 7px 0;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    .row-space {
+      padding: 10px;
+    }
+
+    .black-list {
+      padding-bottom: 10px;
+      .ant-row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+
+    .ant-list-vertical {
+      .ant-list-item-extra {
+        width: 150px;
+        height: 210px;
+        margin-left: 0;
+      }
+
+      .ant-list-item-extra-wrap {
+        height: 210px;
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+      }
+
+      .ant-list-item-main {
+        order: 2;
+        padding-left: 10px;
+      }
+
+      .ant-list-item-content {
+        margin-bottom: 0;
+      }
+    }
+
+    .list-check {
+      display: block;
+      text-align: right;
+      padding: 4px 10px;
+    }
+
+    .ant-list-grid .ant-list-item {
+      padding: 8px 5px !important;
+      margin-bottom: 0;
+    }
+
+    .list-label {
+      display: inline-block;
+      width: 64px;
+      color: #1890ff;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .ant-checkbox-inner {
+      border-radius: 16px;
+    }
+  }
+}

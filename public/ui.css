@@ -1,0 +1,42 @@
+/*表格控件全局样式*/
+#root .ant-table-middle > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-thead > tr > th {
+    padding: 0px 7px;
+	line-height:32px;
+}
+
+#root .ant-table-middle > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-tbody > tr > td {
+    padding: 0px 7px;
+	line-height:32px;
+}
+
+#root .ant-table-row-expand-icon {
+    width: 18px;
+    height: 18px;
+    line-height: 14px;
+}
+
+#root .ant-table-tbody > tr > td {
+    word-break: normal;
+}
+
+#root .ant-card-bordered {
+    border: 0px solid #e8e8e8;
+}
+
+#root .ant-advanced-search-form {
+	padding: 10px;
+    border: 0px solid #d9d9d9;
+	border-radius: 0px;
+}
+
+#root .ant-table-tbody > tr:hover > td {
+	background:fbfbfb;
+	}
+	
+#root .ant-advanced-search-form .ant-form-item {
+    margin-bottom: 8px;
+}
+
+#root .ant-card-wider-padding .ant-card-body {
+    padding: 16px 32px;
+}

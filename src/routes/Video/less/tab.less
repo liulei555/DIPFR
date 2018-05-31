@@ -1,0 +1,74 @@
+@innerWidth: 20px;
+@colorBorder: #e5e5e5;
+@tabsWidth: 33.33%;
+:global {
+  color: #314659;
+  #videoTabPane {
+    .ant-tabs-ink-bar {
+      background-color: #2180d4;
+    }
+    .ant-tabs-bar {
+      height: 45px;
+    }
+    .ant-tabs-nav-wrap {
+      background-color: #dcedff;
+    }
+    .ant-tabs-nav {
+      height: 45px;
+      .ant-tabs-tab {
+        width: @tabsWidth;
+        text-align: center;
+        margin: 0;
+      }
+      //.ant-tabs-tab-active {
+      //  border-top: 2px solid #2180d4;
+      //  background-color: #dcedff;
+      //}
+    }
+    .myTab {
+      padding: 5px;
+    }
+    .borderTop {
+      border-top: 1px solid @colorBorder;
+      margin-top: 10px;
+    }
+    .borderBottom {
+      border-bottom: 1px solid @colorBorder;
+      margin-bottom: 10px;
+    }
+    .cameraDevice {
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 500px;
+      .ant-tree-title {
+        display: inline-block;
+      }
+    }
+    .cameraContainer {
+      height: 100px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding: 0 13px;
+      margin-top: 26px;
+      h4 {
+        margin-left: 7px;
+      }
+      .ant-tag {
+        font-size: 14px;
+      }
+    }
+    .publicWidth {
+      padding: 0 15px;
+      margin-top: 10px;
+      .ant-input-search-icon {
+        color: #00aaa4;
+      }
+      .ant-input {
+        height: 35px;
+      }
+    }
+    .playList {
+      margin-top: 20px;
+    }
+  }
+}

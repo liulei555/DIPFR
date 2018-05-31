@@ -1,0 +1,137 @@
+@import '~antd/lib/style/themes/default.less';
+:global {
+  .map-overlay{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 400px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    .map-search{
+      height: 38px;
+      overflow: hidden;
+      .ant-input-wrapper{
+        height: 100%;
+        overflow: hidden;
+        .ant-input-group-addon{
+          width: 38px;
+          height: 38px;
+          background: #1890ff;
+          font-size: 20px;
+          color: #fff;
+        }
+        .ant-input-search{
+          height: 100%;
+        }
+        .ant-input-search-icon{
+          color: #1890ff;
+          font-size: 20px;
+          padding-left: 8px;
+          border-left: 1px solid #d4d5d6;
+        }
+      }
+
+    }
+    .map-video-box{
+      flex: 1;
+      background: #fff;
+      margin-top: 20px;
+      box-shadow: 1px 5px 5px rgba(49, 70, 89, 0.5);
+      border-radius: 4px;
+      overflow: hidden;
+      .map-video-list{
+        font-size: 0;
+        padding: 10px;
+        .map-video-item{
+          padding: 5px 10px;
+          width: 50%;
+          display: inline-block;
+          .map-video-wapper{
+            border: 1px solid #d4d5d6;
+            border-radius: 4px;
+            font-size: 12px;
+            width: 170px;
+            height: 96px;
+            position: relative;
+            overflow: hidden;
+            .map-video-top {
+              position: absolute;
+              top:-22px;
+              right: -22px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #1890ff;
+              color: #fff;
+              z-index: 99;
+              >span{
+                position: absolute;
+                top:22px;
+                right: 22px;
+                width: 20px;
+                height: 22px;
+                line-height: 18px;
+                z-index: 99;
+                text-align: center;
+              }
+            }
+            .map-video-bottom {
+              position: absolute;
+              bottom:0;
+              left: 0;
+              right: 0;
+              height: 20px;
+              line-height: 20px;
+              background: rgba(0,0,0,.4);
+              padding: 0 10px;
+              color: #fff;
+            }
+            .map-video-content {
+
+            }
+          }
+        }
+
+      }
+      .map-video-box-bottom {
+        padding: 0 15px;
+        >.ant-checkbox-wrapper{
+          margin: 0  auto 10px 15px;
+        }
+        button{
+          width: 84px;
+          height: 30px;
+          font-size: 12px;
+          padding: 0;
+          margin: 0 4px;
+          &:hover,
+          &.on{
+            border: 1px solid #1890ff;
+            color: #1890ff;
+          }
+        }
+      }
+    }
+  }
+
+  .areaAnd-dev{
+    .ant-tree li span.ant-tree-iconEle{
+      width: 0;
+    }
+  }
+  .map-card{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    .ant-card-body{
+      padding: 6px;
+      flex: 1 ;
+      overflow-y: auto;
+    }
+  }
+}
