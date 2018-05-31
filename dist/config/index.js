@@ -1,6 +1,6 @@
 var ipConfig = {
   //图侦平台IP
-  "dipfrIp": "172.20.32.77",
+  "dipfrIp": "172.20.32.78",
   //sip2IP
   "sip2Ip": "172.20.32.59",
   //地图IP
